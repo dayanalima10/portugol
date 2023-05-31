@@ -3,27 +3,26 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro MULTI = 7
-	
-		escreva("**tabuada do 7**\n\n")
-	
-		para(inteiro multi = 0 ; multi <=100 ; multi+= 3){
-			escreva(MULTI, "x", multi,"=" , MULTI * multi, "\n")
-			se ((MULTI * multi)%2 == 0){
-				escreva("Este número é par")			
-			}
-	
-			escreva("\n\n")
+		
+		caracter Nome[6] = {'D','A', 'Y', 'A', 'N', 'A'}
+		
+		para(inteiro i =0; i<=5; i ++){
+			leia(Nome[i])		
 		}
+		escreva("Meu nome é: ")
+		para(inteiro i = 0; i<=5; i ++){
+			
+			escreva(Nome[i])
+			}
+		escreva("\n")	
 	}
-	
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 236; 
+ * @POSICAO-CURSOR = 170; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
